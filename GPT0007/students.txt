@@ -1,0 +1,5 @@
+minji 50
+kim 30
+uk 30
+hung 40
+moon 20
