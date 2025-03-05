@@ -7,7 +7,7 @@ int top = 0;
 
 int main() {
 
-	int N, num;
+	int N;
 	scanf_s("%d", &N);
 	getchar();
 

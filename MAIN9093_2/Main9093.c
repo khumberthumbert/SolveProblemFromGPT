@@ -15,7 +15,7 @@ int main() {
     int n;
     char str[1001];
 
-    scanf("%d", &n);
+    scanf_s("%d", &n);
     getchar();  // 개행 문자 제거
 
     while (n--) {
