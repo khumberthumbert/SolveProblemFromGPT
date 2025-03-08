@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main10989", "Main10989\Main
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GPT0027", "GPT0027\GPT0027.vcxproj", "{894CADA8-A07B-4BC2-A3BF-99CFB15F861E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GPT0028", "GPT0028\GPT0028.vcxproj", "{64DF4690-5C3C-42A4-869D-CCC4921EB347}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{894CADA8-A07B-4BC2-A3BF-99CFB15F861E}.Release|x64.Build.0 = Release|x64
 		{894CADA8-A07B-4BC2-A3BF-99CFB15F861E}.Release|x86.ActiveCfg = Release|Win32
 		{894CADA8-A07B-4BC2-A3BF-99CFB15F861E}.Release|x86.Build.0 = Release|Win32
+		{64DF4690-5C3C-42A4-869D-CCC4921EB347}.Debug|x64.ActiveCfg = Debug|x64
+		{64DF4690-5C3C-42A4-869D-CCC4921EB347}.Debug|x64.Build.0 = Debug|x64
+		{64DF4690-5C3C-42A4-869D-CCC4921EB347}.Debug|x86.ActiveCfg = Debug|Win32
+		{64DF4690-5C3C-42A4-869D-CCC4921EB347}.Debug|x86.Build.0 = Debug|Win32
+		{64DF4690-5C3C-42A4-869D-CCC4921EB347}.Release|x64.ActiveCfg = Release|x64
+		{64DF4690-5C3C-42A4-869D-CCC4921EB347}.Release|x64.Build.0 = Release|x64
+		{64DF4690-5C3C-42A4-869D-CCC4921EB347}.Release|x86.ActiveCfg = Release|Win32
+		{64DF4690-5C3C-42A4-869D-CCC4921EB347}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
