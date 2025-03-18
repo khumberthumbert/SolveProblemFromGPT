@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3bae6349-c110-40ca-b040-75482adbe362}</ProjectGuid>
-    <RootNamespace>GPT0039</RootNamespace>
+    <ProjectGuid>{4599fb8e-d06e-459a-9132-854b93d4f4c9}</ProjectGuid>
+    <RootNamespace>FlexADTDB</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GPT0039.cpp" />
+    <ClCompile Include="atdFileIo.c" />
+    <ClCompile Include="singleList.c" />
+    <ClCompile Include="ui.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="singleList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="memo.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

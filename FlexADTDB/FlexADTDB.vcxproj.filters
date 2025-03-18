@@ -15,8 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GPT0039.cpp">
+    <ClCompile Include="atdFileIo.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="singleList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="singleList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui.h">
+      <Filter>헤더 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="memo.txt" />
   </ItemGroup>
 </Project>

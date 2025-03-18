@@ -1,0 +1,23 @@
+이 프로젝트 하다가, 정리
+
+void 포인터
+1. 동적메모리할당을 해 주는 함수들(malloc, realloc, calloc, free 등)의 원형들이 void*를 사용한다.
+
+전역변수로 구조체 변수를 사용할 때 왜 구조체 포인터를 사용하지 않았을까?
+- 전역변수로 그냥 구조체변수를 사용하면 Data Section에 저장된다 -> 프로그램 실행 중 항상 존재함.
+- 왜 전역 변수에 구조체 포인터를 사용하지 않는가?
+	- 구조체 변수 자체를 선언하면 관리가 단순하지만, 구조체 포인터 전역 변수를 사용하면 동적할당이 필요하기 때문.
+
+Data Section과 Stack영역 차이
+- Data Section 영역 : 전역 변수와 static 변수(정적 변수)가 저장되는 메모리 영역이다.
+	- 프로그램 시작 시 메모리 할당, 프로그램 종료 시 해제
+- stack 영역 : 자동(Automatic)메모리 할당 영역. 함수 호출 시 생성되는 지역 변수와 매개변수가 저장되는 영역이다.
+	- 함수 호출 시 할당, 함수가 종료되면 자동 해제
+
+g_listCount가 뭘까?
+
+void ReleaseList(void)에서 free(pDelete->pszKey);를 해주는 이유가 뭘까?
+-> 포인터 필드들도 동적할당을 해지해줘야 하는 것 때문이라고 생각.
+
+errno_t strcpy_s(char *dest, rsize_t dest_size, const char *src);
+- src의 문자열을 dest에 복사

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3bae6349-c110-40ca-b040-75482adbe362}</ProjectGuid>
-    <RootNamespace>GPT0039</RootNamespace>
+    <ProjectGuid>{b2fa903a-0d2b-4d70-9993-d59f2384ccc6}</ProjectGuid>
+    <RootNamespace>GPT0030</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GPT0039.cpp" />
+    <ClCompile Include="GPT0030.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
