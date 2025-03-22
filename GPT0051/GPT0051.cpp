@@ -71,7 +71,7 @@ int main()
     //const Person& p : 여기서 p는 복사가 아니라 참조(reference)로 받기 때문에 메모리 낭비 없이 처리됨.
     //const를 붙이면 p 내부 데이터를 수정하지 않겠다는 보장.
     //for(Person p : people) -> 매번 복사본 생성(비효율적)
-    //for(const Person& p : people) -> 복사 없이 일기만 함.
+    //for(const Person& p : people) -> 복사 없이 읽기만 함.
     for (const Person& p : people) { //여기서 Person객체의 주소를 저장하는 변수 p가 왜 필요? 왜 Person이 아니고 Person&인가?
         p.save(outFile);
     }
