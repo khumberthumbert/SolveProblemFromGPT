@@ -6,7 +6,7 @@ int factorial(int input) {
 	return  input * factorial(input - 1);
 }
 
-//long long combFunc(int input1, int input2) {
+//long long int combFunc(int input1, int input2) {
 //	long long result = factorial(input2) / (factorial(input1) * factorial(input2 - input1));
 //	return result;
 //	
