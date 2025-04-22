@@ -6,10 +6,18 @@ int factorial(int input) {
 	return  input * factorial(input - 1);
 }
 
-int combFunc(int input1, int input2) {
-	int result = factorial(input2) / (factorial(input1)) * (factorial((input2 - input1)));
+//long long combFunc(int input1, int input2) {
+//	long long result = factorial(input2) / (factorial(input1) * factorial(input2 - input1));
+//	return result;
+//	
+//}
+
+long long combFunc(int r, int n) {
+	long long result = 1;
+	for (int i = 1; i <= r; i++) {
+		result = result * (n - i + 1) / i;
+	}
 	return result;
-	
 }
 
 int main(void)
