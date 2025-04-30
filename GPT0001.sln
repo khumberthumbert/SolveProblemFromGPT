@@ -181,6 +181,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GPT0077", "GPT0077\GPT0077.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GPT0075", "GPT0075\GPT0075.vcxproj", "{CDE0D6B4-200B-4AFF-820A-0FE05EC6D3ED}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GPT0078", "GPT0078\GPT0078.vcxproj", "{54A82923-0959-4931-8B6C-E17AA05678A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -901,6 +903,14 @@ Global
 		{CDE0D6B4-200B-4AFF-820A-0FE05EC6D3ED}.Release|x64.Build.0 = Release|x64
 		{CDE0D6B4-200B-4AFF-820A-0FE05EC6D3ED}.Release|x86.ActiveCfg = Release|Win32
 		{CDE0D6B4-200B-4AFF-820A-0FE05EC6D3ED}.Release|x86.Build.0 = Release|Win32
+		{54A82923-0959-4931-8B6C-E17AA05678A8}.Debug|x64.ActiveCfg = Debug|x64
+		{54A82923-0959-4931-8B6C-E17AA05678A8}.Debug|x64.Build.0 = Debug|x64
+		{54A82923-0959-4931-8B6C-E17AA05678A8}.Debug|x86.ActiveCfg = Debug|Win32
+		{54A82923-0959-4931-8B6C-E17AA05678A8}.Debug|x86.Build.0 = Debug|Win32
+		{54A82923-0959-4931-8B6C-E17AA05678A8}.Release|x64.ActiveCfg = Release|x64
+		{54A82923-0959-4931-8B6C-E17AA05678A8}.Release|x64.Build.0 = Release|x64
+		{54A82923-0959-4931-8B6C-E17AA05678A8}.Release|x86.ActiveCfg = Release|Win32
+		{54A82923-0959-4931-8B6C-E17AA05678A8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
